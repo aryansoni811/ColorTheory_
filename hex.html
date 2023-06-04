@@ -8,14 +8,13 @@
     <!-- styles -->
     <link rel="stylesheet" href="styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
   </head>
 
   <body>
     <nav>
       <div class="nav-center">
-        <h4>color flipper</h4>
+        <h4>Color Theory</h4>
         <ul class="nav-links">
           <li><a href="index.html">simple</a></li>
           <li><a href="hex.html">hex</a></li>
@@ -25,22 +24,22 @@
     </nav>
     <main>
       <div class="container">
-        <h2>background color : <span class="color">#f1f1f1</span></h2>
+        <h2>background color : <span id="color" class="color">#f1f1f1</span></h2>
         <button class="btn btn-hero" id="btn">click me</button>
         <div class="btn button-container">
-          <button id="UP-R"class="btn decrease">UP</button>
-          <button id="HUE"class="btn reset" style="background-color: red;">RED</button>
-          <button id="DOWN-R"class="btn increase">DOWN</button>
+          <button id="UP-R"class="btn2 r_decrease">DOWN</button>
+          <button id="HUE"class="btn2 r_reset" style="background-color: red;">RED</button>
+          <button id="DOWN-R"class="btn2 r_increase">UP</button>
         </div>
         <div class="btn button-container">
-          <button id="UP-G"class="btn decrease">UP</button>
-          <button id="HUE"class="btn reset" style="background-color: green;">GREEN</button>
-          <button id="DOWN-G"class="btn increase">DOWN</button>
+          <button id="UP-G"class="btn2 g_decrease">DOWN</button>
+          <button id="HUE"class="btn2 g_reset" style="background-color: green;">GREEN</button>
+          <button id="DOWN-G"class="btn2 g_increase">UP</button>
         </div>
         <div class="btn button-container">
-          <button id="UP-B"class="btn decrease">UP</button>
-          <button id="HUE"class="btn reset" style="background-color: blue;">BLUE</button>
-          <button id="DOWN-B"class="btn increase">DOWN</button>
+          <button id="UP-B"class="btn2 b_decrease">DOWN</button>
+          <button id="HUE"class="btn2 b_reset" style="background-color: blue;">BLUE</button>
+          <button id="DOWN-B"class="btn2 b_increase">UP</button>
         </div>
       </div>
     </main>
